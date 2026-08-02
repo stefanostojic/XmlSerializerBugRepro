@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": false,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7247",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        //"DOTNET_TieredPGO": "0" // Fix #1
+        //"DOTNET_JitNoInline": "1" // Fix #2
+        //"DOTNET_JitObjectStackAllocation": "0" // Fix #3
+      }
+    }
+  }
+}
