@@ -16,6 +16,12 @@ namespace XmlSerializerBugRepro.Models.Collections
         IEnumerator IEnumerable.GetEnumerator() => _innerList.GetEnumerator();
 
         // Fix #4:
+        //public int Count => _innerList.Count;
+        //public T this[int index]
+        //{
+        //    get => _innerList[index];
+        //    set => _innerList[index] = value;
+        //}
         //void ICollection.CopyTo(Array array, int index) => ((ICollection)_innerList).CopyTo(array, index);
         //bool ICollection.IsSynchronized => false;
         //object ICollection.SyncRoot => this;
