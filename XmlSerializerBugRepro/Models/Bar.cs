@@ -1,4 +1,4 @@
-﻿namespace WebApi.Models
+﻿namespace XmlSerializerBugRepro.Models
 {
     public class Bar
     {

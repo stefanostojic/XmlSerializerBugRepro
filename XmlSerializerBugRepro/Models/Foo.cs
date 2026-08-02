@@ -1,6 +1,6 @@
-﻿using WebApi.Models.Collections;
+﻿using XmlSerializerBugRepro.Models.Collections;
 
-namespace WebApi.Models
+namespace XmlSerializerBugRepro.Models
 {
     public class Foo
     {

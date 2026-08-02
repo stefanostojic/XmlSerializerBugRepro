@@ -6,10 +6,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
-using WebApi.Models;
-using WebApi.Models.Collections;
+using XmlSerializerBugRepro.Models;
+using XmlSerializerBugRepro.Models.Collections;
 
-namespace WebApi
+namespace XmlSerializerBugRepro
 {
     public class SerializationReproService(IHostApplicationLifetime lifetime, ILogger<SerializationReproService> logger) : BackgroundService
     {

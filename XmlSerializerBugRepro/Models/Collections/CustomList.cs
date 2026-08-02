@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace WebApi.Models.Collections
+namespace XmlSerializerBugRepro.Models.Collections
 {
     public class CustomList<T> : IEnumerable<T>
         //, ICollection // Fix #4
